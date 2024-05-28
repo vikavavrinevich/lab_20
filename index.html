@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button  id="openModalBtn">Відкрити модальне вікно реєстрації</button>
+
+    <div id="registrationModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+      
+        <form id="registrationForm">
+          <label for="username">Нікнейм:</label>
+          <input type="text" id="username" required>
+          
+          <label for="email">Електронна адреса:</label>
+          <input type="email" id="email" required>
+          
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" required>
+          
+          <label for="confirmPassword">Підтвердження паролю:</label>
+          <input type="password" id="confirmPassword" required>
+          
+          <button class="btn" type="submit">Зареєструватися</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
